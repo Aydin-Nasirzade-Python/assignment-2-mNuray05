@@ -1,14 +1,13 @@
 #import libraries here
 
 def main():
- l=input("Enter a letter of the alphabet: ")
-vowels=["a", "o", "u", "i", "e", "A", "O" ,"U", "I", "E"]
-if l in vowels:
- print("Entered alphabet is a vowel !")
-elif l=="y" or l== "Y":
- print("Sometimes it is a vowel, and sometimes it is a consonant !")
-elif l in "qwrtpsdfghjklzxcvbnmQWRTPSDFGHJKLZXCVBNM":
- print("Entered alphabet is a consonant !")
+ n=input("Enter a letter of the alphabet: ")
+ if n in "aeiouAEOUI":
+  print("Entered alphabet is a vowel!\n")
+ elif n in "Yy":
+ print("Sometimes it is a vowel, and sometimes it is a consonant!\n")
+ elif n in "qwrtpsdfghjklzxcvbnmQWRTPSDFGHJKLZXCVBNM":
+print("Entered alphabet is a consonant!\n")  
   
   pass
 
