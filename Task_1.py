@@ -6,8 +6,9 @@ def main():
         print("Entered alphabet is a vowel!")
     elif l in "yY":
         print("Sometimes it is a vowel, and sometimes it is a consonant!")
-    elif l in "qQwWrRtTpPsSdDfFgGhHjJkKlLzZxXcCvVbBnNmM"
+    elif l in "qQwWrRtTpPsSdDfFgGhHjJkKlLzZxXcCvVbBnNmM":
         print("Entered alphabet is a consonant!")
+    pass    
 
 if __name__ == "__main__":
   main()
