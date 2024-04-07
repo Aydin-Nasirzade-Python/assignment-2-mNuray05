@@ -1,7 +1,7 @@
 #import libraries here
 
 def main():
- l=input("Enter a letter of the alphabet: ")
+l=input("Enter a letter of the alphabet: ")
 vowels=["a", "o", "u", "i", "e"]
 both="y"
 if l in vowels:
